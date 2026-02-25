@@ -1,4 +1,6 @@
 ---
+---
+
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
@@ -13,7 +15,6 @@ const posts = all
 
 const base = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${base.replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
----
 
 <!doctype html>
 <html lang="zh-CN">

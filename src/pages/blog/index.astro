@@ -1,4 +1,6 @@
 ---
+---
+
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
@@ -21,7 +23,6 @@ for (const post of posts) {
 	list.push(post);
 	groups.set(group, list);
 }
----
 
 <!doctype html>
 <html lang="zh-CN">
